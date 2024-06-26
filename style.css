@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:rgb(30, 30, 66);
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(150, 130, 130, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.expense-form {
+    margin-bottom: 20px;
+}
+
+.expense-form input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.expense-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.expense-form button:hover {
+    background-color: #555;
+}
+
+.expense {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expense p {
+    margin: 0;
+}
+
+.expense button {
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.expense button:hover {
+    background-color: #c0392b;
+}
+
+.balance {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.balance h2 {
+    color: #333;
+}
